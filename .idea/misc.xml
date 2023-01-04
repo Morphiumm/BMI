@@ -7,6 +7,15 @@
         <entry key="..\:/Users/Agile/AndroidStudioProjects/BMI/app/src/main/res/font/raleway.xml" value="0.41458333333333336" />
         <entry key="..\:/Users/Agile/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_main.xml" value="0.33106884057971014" />
         <entry key="..\:/Users/Agile/AndroidStudioProjects/BMI/app/src/main/res/layout/fragment_bmi_details.xml" value="0.5" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable-v24/button_border.xml" value="0.138" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable-v24/gradient_vertical.xml" value="0.152" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/border.xml" value="0.152" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/gradient.xml" value="0.152" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/ic_share.xml" value="0.138" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/ic_star.xml" value="0.138" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/paralel_borders.xml" value="0.152" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/fragment_bmi_details.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/fragment_bmi_result.xml" value="0.2857142857142857" />
       </map>
     </option>
   </component>

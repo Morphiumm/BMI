@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_body_mass_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:alpha="0.3"
+                android:fontFamily="@font/raleway"
+                android:text="Body mass index"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textAllCaps="true" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_weight_integer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textSize="100sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_body_mass_title"
+                tool:text="18" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_name_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tool:text="Hello Olivia, you are normal"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_weight_integer"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_normal_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tool:text="Normal BMI Range: 18.5/m2 - 25/m2"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_name_bmi"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_ponderal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tool:text="Ponderal Index: 10.64 kg/m3"
+                android:layout_marginTop="6dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_normal_bmi"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <FrameLayout
+                android:id="@+id/fl_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                app:layout_constraintEnd_toStartOf="@id/fl_rate"
+                app:cardBackgroundColor="@color/transparent"                android:layout_marginTop="40dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_ponderal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="10dp"
+                    android:drawableStart="@drawable/ic_share"
+                    android:fontFamily="@font/raleway"
+                    android:textColor="@color/white"
+                    android:text="Share"
+                    android:textSize="24sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_rate"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                app:cardBackgroundColor="@color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/fl_share"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_ponderal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/white"
+                    android:drawableStart="@drawable/ic_share"
+                    android:fontFamily="@font/raleway"
+                    android:text="Rate"
+                    android:textSize="24sp" />
+
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
