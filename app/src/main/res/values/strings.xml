@@ -7,4 +7,15 @@
     <string name="height">Height</string>
     <string name="gender">Gender</string>
     <string name="calculate">Calculate</string>
+    <string name="normal_bmi">Normal BMI Range: 18.5/m2 – 25/m2</string>
+    <string name="body_mass_index">Body mass index</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="add_bmi_details">Add BMI Details</string>
+    <string name="bmi_details">BMI Details</string>
+    <string name="screenshot_saved">Screenshot saved to Cache files</string>
+    <string name="write_name">Please write your name</string>
+    <string name="name_result">Hello %1s, you have %2s</string>
+    <string name="ponderal_index">Ponderal Index: %s kg/m3</string>
+
 </resources>

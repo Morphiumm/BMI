@@ -14,8 +14,11 @@
         <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/ic_share.xml" value="0.138" />
         <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/ic_star.xml" value="0.138" />
         <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/drawable/paralel_borders.xml" value="0.152" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_main.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/details_action_bar.xml" value="0.2617753623188406" />
         <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/fragment_bmi_details.xml" value="0.2857142857142857" />
         <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/fragment_bmi_result.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/ilias/AndroidStudioProjects/BMI/app/src/main/res/layout/result_action_bar.xml" value="0.2617753623188406" />
       </map>
     </option>
   </component>

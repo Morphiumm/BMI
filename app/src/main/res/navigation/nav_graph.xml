@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bmiDetailsFragment">
+
+
+    <fragment
+        android:id="@+id/bmiDetailsFragment"
+        android:name="com.morphium.bmi.presentation.BmiDetailsFragment"
+        android:label="BmiDetailsFragment"
+        tools:layout="@layout/fragment_bmi_details">
+        <action
+            android:id="@+id/action_bmiDetailsFragment_to_bmiResultFragment"
+            app:destination="@id/bmiResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bmiResultFragment"
+        android:name="com.morphium.bmi.presentation.BmiResultFragment"
+        android:label="BmiResultFragment"
+        tools:layout="@layout/fragment_bmi_result" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="weight"
+            app:argType="integer" />
+        <argument
+            android:name="height"
+            app:argType="integer" />
+    </fragment>
+</navigation>
